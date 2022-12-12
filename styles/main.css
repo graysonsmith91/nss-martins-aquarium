@@ -1,0 +1,60 @@
+.header-section {
+    text-align: center;
+    padding: 40px;
+    font-size: 30px;
+    background-color: darkblue;
+    color: white;
+}
+
+.fish__image {
+    height: 150px;
+    width: 150px;
+    border-radius: 5px;
+}
+
+.fishList {
+    display: flex;
+    flex-wrap: wrap;
+    width: 70vw;
+}
+
+.fish-list {
+    width: 70%;
+}
+
+.fish-card {
+    margin: 30px;
+}
+
+.quotes-section {
+    background-color: blue;
+    padding: 40px;
+    font-size: 2rem;
+}
+
+.locations-section {
+    background-color: darkblue;
+    padding: 40px;
+    font-size: 2rem;
+    color: white;
+}
+
+.locations-text {
+    font-size: 1rem;
+}
+
+.tips-aside {
+    width: 30vw;
+    background-color: lightblue;
+    align-items: end;
+    text-align: center;
+    padding-top: 50px;
+}
+
+.container {
+    display: flex;
+}
+
+body {
+    font-family: 'Inter', sans-serif;
+}

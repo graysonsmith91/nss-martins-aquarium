@@ -31,27 +31,32 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <link rel="stylesheet" href="./styles/main.css">
 </head>
+
+<style>
+    @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap');
+</style>    
+
 <body>
 
     <header class="header-section">Martin's Aquarium</header>
 
     <main class="main-section">
+        <div class="container">
+            <div class="fish-list"></div>
 
-        <section class="fish-section">Fish List
-            <img src="fish">
-        </section>
-
-        <aside class="tips-aside">
-            <p>tips go here</p>
-        </aside>
+            <aside class="tips-aside">Martin's amazing thoughts</aside>
+        </div>
 
         <section class="quotes-section">Quotes</section>
 
-        <section class="locations-section">Harvesting Locations</section>
+        <section class="locations-section">Harvesting Locations
+            <p class="locations-text">Michigan, Hawaii, Savannah, Japan, and Miami</p>
+        </section>
 
     </main>
     
+    <script type="module" src="./scripts/main.js"></script>
 </body>
 </html>
